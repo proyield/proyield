@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: white;
 }
 
 #container {
@@ -26,28 +26,20 @@ video {
 }
 
 .grandtitle {
+  opacity: 0;
   text-align: center;
-  font-family: Montserrat;
+  font-family: Muli;
   color: white;
   font-size: 40px;
-  margin-top: 100px;
+  margin-top: 250px;
   padding: 30px;
+  text-rendering: optimizeLegibility;
+  text-rendering: optimizeSpeed;
 }
 
-/* fadeIn */
-.fadeIn {
-    -webkit-animation-name: fadeIn;
-    animation-name: fadeIn;
-    animation-duration: 5s;
-    animation-delay: 1.5s; 
+.buttonContainer {
+  opacity: 0;
 }
 
-@-webkit-keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-}
-@keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-}
+/* button characteristics */
 
